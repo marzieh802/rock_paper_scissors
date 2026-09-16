@@ -6,7 +6,7 @@ your_input = input(
 
 
 if not your_input.isdigit():
-    print('is not digit')
+    print('is not digit ')
     sys.exit()
 your_choice = int(your_input)
 
