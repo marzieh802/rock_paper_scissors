@@ -9,9 +9,11 @@ shopping_list = [
 ]
 
 expensive_items = []
+affordable_items = []
 for name, price in shopping_list:
     if price > user_info[1]:
         expensive_items.append(name)
     else:
-        print("it is not more than 100")
+        affordable_items.append(name)
 print(expensive_items)
+print(affordable_items)
